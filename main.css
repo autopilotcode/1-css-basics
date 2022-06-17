@@ -40,6 +40,27 @@ body {
 
 }
 
+.main-header > div {
+    /*inline+top&bottom padding*/
+    display: inline-block;
+}
+
+.main-nav {
+    display: inline-block;
+    /*width 100%- .main-link(uHost)width in px*/
+    width: calc(100% - 50px);
+    text-align: right;
+}
+
+.main-nav__items {
+    /*to positon to the right correctly*/
+    margin: 0;
+    padding: 0;
+    /*removes the bullet points*/
+    list-style: none;
+}
+
 .main-nav__item {
     display: inline-block;
 }
+
