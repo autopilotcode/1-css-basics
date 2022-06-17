@@ -7,16 +7,18 @@
     <title>uHost</title>
     <link rel="shortcut icon" href="favicon.png">
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
     <header class="main-header">
-        <div>
-            <a href="index.html">
+        <div class ="main-link">
+            <a href="index.html" class="main-header__brand">
                 uHost
             </a>
+        <!--the space between tags can be removed to display both elements in one line
+        in this case was used calc()-->
         </div>
         <nav class="main-nav">
             <ul class="main-nav__items">    
@@ -24,9 +26,9 @@
                     <a href="packages/index.html">Packages</a>
                 </li>
                 <li class="main-nav__item">
-                    <a href="customers/index.html" style="display:block">Customers</a>
+                    <a href="customers/index.html">Customers</a>
                 </li>
-                <li class="main-nav__item">
+                <li class="main-nav__item main-nav__item--cta">
                     <a href="start-hosting/index.html">Start Hosting</a>
                 </li>
             </ul>
@@ -40,6 +42,7 @@
             <h1 class="section-title">Choose Your Plan</h1>
             <p>Make sure you get the most for your money</p>
         </section>
+        
     </main>
 </body>
 
