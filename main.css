@@ -43,6 +43,7 @@ body {
 .main-header > div {
     /*inline+top&bottom padding*/
     display: inline-block;
+<<<<<<< HEAD
     vertical-align: middle;
 }
 
@@ -52,6 +53,8 @@ body {
     /*works only if used font has bold version*/
     font-weight: bold;
     font-size: 20px;
+=======
+>>>>>>> 4b7da3efa8514727c698d6f6e5b8164abb28a41d
 }
 
 .main-nav {
@@ -72,6 +75,7 @@ body {
 
 .main-nav__item {
     display: inline-block;
+<<<<<<< HEAD
     /*top&bot zero, l&right 16px*/
     margin: 0 16px;
 }
@@ -111,3 +115,7 @@ body {
 
 
 
+=======
+}
+
+>>>>>>> 4b7da3efa8514727c698d6f6e5b8164abb28a41d
