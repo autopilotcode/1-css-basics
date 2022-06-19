@@ -26,6 +26,7 @@ body {
 .section-title {
     color: #2ddf5c;
     font-family: inherit;
+    text-align: center;
 }
 
 #product-overview h1 {
@@ -33,11 +34,131 @@ body {
     font-family: 'Anton', sans-serif;
 }
 
+.plan {
+    background: #d5ffdc;
+    text-align: center;
+    padding: 16px;
+    margin: 8px;
+    display: inline-block;
+    width: 30%;
+    vertical-align: middle;
+}
+
+.plan--highlighted {
+    background: #19b84c;
+    color: white;
+    /*x axes, y axes, blurriness, spread*/
+    /*rgba 3 numbers -color, 4th number transparancy 0.5 = 50%*/
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.plan__annotation {
+    color: #19b84c;
+    background: white;
+    /*top right bottom left
+    border-radius: 4px 4px 4px 4px;*/
+    border-radius: 8px;
+    padding: 8px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+
+}
+
+.plan__title {
+    color: #0e4f1f;
+}
+
+.plan__price {  
+    color: #858585;
+}
+
+.plan--highlighted .plan__title {
+    color: white;
+}
+
+.plan--highlighted .plan__price {
+    color: #0e4f1f;
+}
+
+.plan__features {
+    /*removes the bullet points*/
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.plan__feature {
+    margin: 8px 0;
+}
+
+.button {
+    background: #0e4f1f;
+    color: white;
+    font: inherit;
+    border: 1px solid #0e4f1f;
+    padding: 8px;
+    border-radius: 8px;
+    font-weight: bold;
+    /*cursor can be added to the any element, to indicate location*/
+    cursor: pointer;
+}
+
+#key-features {
+    background-color: #ff1b68;
+    margin-top: 80px;
+    padding: 16px;
+}
+
+#key-features .section-title {
+    color: white;
+    margin: 32px;
+}
+
+.key-feature__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.key-feature {
+    display: inline-block;
+    /*30% because inline-block behaviour, whitespase in between, 30% we'll be safe*/
+    width: 30%;
+    vertical-align: top;
+}
+
+.key-feature__image {
+    background-color: #ffcede;
+    width: 128px;
+    height: 128px;
+    border: 2px solid #424242;
+    /*for a perfect circle*/
+    border-radius: 50%;
+    /*to center this circle, it works only horizontally*/
+    margin: auto;
+}
+
+.key-feature__description {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+
+.button:hover,
+.button:active {
+    background: white;
+    color: #0e4f1f;
+}
+
+.button:focus {
+    outline: none;
+}
+
 .main-header {
     background-color: #2ddf5c;
     width: 100%;
     padding: 8px 16px;
-
 }
 
 .main-header > div {
@@ -101,4 +222,33 @@ body {
     color: #ff1b68;
     background: white;
     border: none;
+}
+
+.main-footer {
+    background: black;
+    padding: 32px;
+    margin-top: 48px;
+}
+
+.main-footer__links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.main-footer__link {
+    display: inline-block;
+    margin: 0 16px;
+}
+
+.main-footer__link a {
+    color: white;
+    /*to remove the link*/
+    text-decoration: none;
+}
+
+.main-footer__link a:hover,
+.main-footer__link a:active {
+    color: #ccc;
 }
