@@ -2,13 +2,14 @@
 
 ###### folders[1-5]
 
-* Diving Into the Basics of CSS
+> Diving Into the Basics of CSS
 
-* Diving Deeper into CSS
+> Diving Deeper into CSS
 
-* More on Selectors  CSS Features
+> More on Selectors  CSS Features
 
-* Practicing the Basics
+> Practicing the Basics
+---
 
 *Clone this project to your device, open* **index.html** *file in your browser and you'll see the result:*
 
