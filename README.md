@@ -1,4 +1,4 @@
-# 1-CSS-Basics
+# 1-CSS-Basics 📝
 
 ###### folders[1-5]
 
